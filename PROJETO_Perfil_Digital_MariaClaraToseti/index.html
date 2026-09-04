@@ -3,42 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Digital - Maria Clara Toseti</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Meu Perfil Profissional - SENAI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 20px;
+        }
+        header {
+            background-color: #00539C; /* Azul SENAI */
+            color: white;
+            padding: 15px;
+            border-bottom: 4px solid #E30613; /* Vermelho SENAI */
+        }
+        h2 {
+            color: #00539C;
+        }
+        a {
+            color: #E30613;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
-        <img src="https://media.tenor.com/oKV2JMG1rUQAAAAM/nearhacks-near.gif" alt="Foto de perfil de Seu Nome">
-        <h1>Maria Clara Toseti</h1>
-        <p>Desenvolvedora em Formação | Estudante de TI</p>
+        <h1>Maria Toseti</h1>
+        <p>Estudante de Desenvolvimento de Sistemas - SENAI</p>
     </header>
 
+    <hr>
+
     <main>
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Sou uma estudante do SENAI, tenho 16 anos e gosto de desenhar, cozinhar e jogar. Tenho 3 cachorros pinschers e 4 gatos.</p>
-        </section>
 
         <section>
-            <h2>Conhecimentos e Habilidades</h2>
+            <h2>Sobre Mim</h2>
+
+            <!-- CORREÇÃO 1: Atributo 'src' corrigido e caminho ajustado -->
+            <img src="https://us.123rf.com/450wm/djvstock/djvstock1707/djvstock170712860/82565985-%C3%ADcone-de-mulher-de-desenho-animado-sobre-fundo-branco-colorido-design-ilustra%C3%A7%C3%A3o-vetorial.jpg?ver=6" alt="Foto de perfil" width="150">
+
+            <p>
+                Olá! Meu nome é Maria Toseti. Sou estudante do curso
+                Técnico em Desenvolvimento de Sistemas e tenho interesse
+                em programação, desenvolvimento web e tecnologia.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Conhecimentos</h2>
+
+            <!-- CORREÇÃO 2: Tag de fechamento da lista corrigida de </ol> para </ul> -->
             <ul>
                 <li>HTML</li>
-                <li>CSS3 (Estilização e Layout)</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
                 <li>Git e GitHub</li>
                 <li>Lógica de Programação</li>
             </ul>
         </section>
 
+        <hr>
+
         <section>
-    <h2>Contato e Redes</h2>
-    <ul>
-        <li><strong>E-mail:</strong> maria.toseti@edu.senai.br</li>
-        <li><strong>GitHub:mariactoseti</strong> ...</li>
-    </ul> 
-</section>
+            <h2>Meus Projetos</h2>
+
+            <h3>Projeto Perfil Digital</h3>
+            <p>
+                Página desenvolvida utilizando HTML para apresentar
+                informações sobre meu perfil profissional.
+            </p>
+
+            <h3>Próximo Projeto</h3>
+            <p>
+                Em breve adicionarei novos projetos nesta página.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Objetivo Profissional</h2>
+
+            <p>
+                Meu objetivo é desenvolver meus conhecimentos em programação
+                e participar de projetos de desenvolvimento de software.
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <!-- CORREÇÃO 3: Tag de fechamento do título corrigida de </h3> para </h2> -->
+            <h2>Contato</h2>
+
+            <p>
+                GitHub:
+                <!-- CORREÇÃO 4: Atributo 'href' corrigido e protocolo https:// adicionado -->
+                <a href="https://github.com/mariactoseti" target="_blank">
+                    Meu GitHub
+                </a>
+            </p>
+        </section>
+
     </main>
 
+    <hr>
+
     <footer>
-        <p>&copy; 2026 - Perfil Digital criado para a disciplina LIMA.</p>
+        <p>Desenvolvido por Maria Toseti - 2026 | SENAI</p>
     </footer>
+
 </body>
+</html>
